@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 
 * {
     margin: 0;
@@ -104,3 +105,111 @@ li.completed span {
 .delete:hover {
     background: #e63939;
 }
+=======
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app {
+    background: white;
+    width: 400px;
+    padding: 30px;
+
+    border-radius: 15px;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.input-box {
+    display: flex;
+    gap: 10px;
+}
+
+input {
+    flex: 1;
+
+    padding: 12px;
+
+    border: 1px solid #ddd;
+    border-radius: 8px;
+
+    outline: none;
+}
+
+input:focus {
+    border-color: #667eea;
+}
+
+button {
+    border: none;
+
+    padding: 12px 16px;
+
+    background: #667eea;
+    color: white;
+
+    border-radius: 8px;
+
+    cursor: pointer;
+}
+
+button:hover {
+    background: #5568d8;
+}
+
+ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background: #f5f5f5;
+
+    margin-bottom: 10px;
+    padding: 12px;
+
+    border-radius: 8px;
+}
+
+li span {
+    cursor: pointer;
+}
+
+li.completed span {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.delete {
+    background: #ff4d4d;
+    padding: 6px 10px;
+    margin-left: 10px;
+}
+
+.delete:hover {
+    background: #e63939;
+}
+>>>>>>> Stashed changes
